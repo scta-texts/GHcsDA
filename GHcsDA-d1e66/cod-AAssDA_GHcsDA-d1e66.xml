@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1</title><!-- De Anima -->
+        <author ref="#per-sdv3av">Marcantonio Zimara</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1</title>
+          <date when="2021-01-16">January 16, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="J" n="cod-AAssDA">Venice 1562, Volume 11</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#J" n="205-r"/>
+        <cb ed="#J" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="GHcsDA-d1e66">
+        <head xml:id="GHcsDA-d1e66-Hd1e108">Liber 1</head>
+        <p xml:id="GHcsDA-d1e66-d1e111">
+          <!--Averroes_DeAnima_JuntSecunda_11-0422.xml-->
+          <pb ed="#J" n="205-r"/>
+          <cb ed="#J" n="a"/>
+          <lb ed="#J" n="1"/>MARCIANTONII 
+          <lb ed="#J" n="2"/>SIMARAE. 
+          <lb ed="#J" n="3"/>Solutiones Contradictionum 
+          <lb ed="#J" n="4"/>in dictis Aristotelis, 
+          <lb ed="#J" n="5"/>&amp; Auerrois. 
+          <lb ed="#J" n="6"/>Super Primo de Anima. 
+        </p>
+        <div xml:id="GHcsDA-d1e66-Dd1e133">
+          <head xml:id="GHcsDA-d1e66-Hd1e135">Contradictio 1</head>
+          <p xml:id="GHcsDA-d1e66-d1e138">
+            <lb ed="#J" n="7"/>COntradictio est super tex. 
+            <lb ed="#J" n="8"/>primo. Aristote. enim &amp;  
+            <lb ed="#J" n="9"/>Commenta asserunt scien 
+            <lb ed="#J" n="10"/>tiam alteram altera prae 
+            <lb ed="#J" n="11"/>stantiorem &amp; nobiliorem 
+            <lb ed="#J" n="12"/>esse ex subiecti nobilitate. 
+            <lb ed="#J" n="13"/>Sed huius oppositum habetur ab Auerr. in 
+            <lb ed="#J" n="14"/>primo de partibus animalium iuxta finem, 
+            <lb ed="#J" n="15"/>vbi habet quod scientia Naturalis plus apparet 
+            <lb ed="#J" n="16"/>in materia viliori, quam in alia
+            nobiliori<lb ed="#J" n="17" break="no"/>Et confirmat hoc ex arte, vbi ingenium
+            ar<lb ed="#J" n="18" break="no"/>tificis, &amp; ars magis ostenditur in materia 
+            <lb ed="#J" n="19"/>vili quam in materia nobili, vt testatur etiam 
+            <lb ed="#J" n="20"/>commenta. 12. meta. com. 16. authoritate The 
+            <lb ed="#J" n="21"/>mistil. Dixerunt nonnulli, ad pauea
+            respi<lb ed="#J" n="22" break="no"/>cientes, non fuisse ex intentione Philosophi 
+            <lb ed="#J" n="23"/>vnquam scientiam sumere nobilitatem a 
+            <lb ed="#J" n="24"/>subiecti differentia. Sed mirum est de
+            isto<lb ed="#J" n="25" break="no"/>rum audacia, ne dicam temeritate, qui vt 
+            <lb ed="#J" n="26"/>aliquid inanis nominis sibi vendicarent, co 
+            <lb ed="#J" n="27"/>nati sunt contradicere patribus Antiquis. &amp; 
+            <lb ed="#J" n="28"/>veritati. Nam etiam Themistius hoc idem 
+            <lb ed="#J" n="29"/>asserit, quod Commenta. &amp; exempla
+            Com<lb ed="#J" n="30" break="no"/>menta. sunt exempla Themist. vt patet. Nam 
+            <lb ed="#J" n="31"/>Aristo. 9. meta. tex. com. 12. ostendit quod actus 
+            <lb ed="#J" n="32"/>praecedit potentiam nobilitate, &amp; quod scien 
+            <lb ed="#J" n="33"/>tia in actu est nobilior scientia in potentia, 
+            <lb ed="#J" n="34"/>&amp;. 6. meta. tex. com. 2. ostendit scientiam
+            ho<lb ed="#J" n="35" break="no"/>norabiliorem esse honorabilioris generis 
+            <lb ed="#J" n="36"/>&amp; quomodo imaginari potest quod altera al 
+            <lb ed="#J" n="37"/>teram excellat in nobilitate, &amp; non
+            diffe<lb ed="#J" n="38" break="no"/>rat ab eadem. omne enim ens omni enti 
+            <lb ed="#J" n="39"/>comparatum, aut est idem, aut diuersum, 
+            <lb ed="#J" n="40"/>vt patet. Dicamus igitur quod secus est de
+            natu<lb ed="#J" n="41" break="no"/>ra &amp; arte, &amp; secus est de scientiis speculati 
+            <lb ed="#J" n="42"/>uis, quas nos habemus de rebus. Natura. eni 
+            <lb ed="#J" n="43"/>facit naturalia, &amp; ars artisicialia. &amp; ita etiam 
+            <lb ed="#J" n="44"/>ars magis fulget in materia vili, quae in mate 
+            <lb ed="#J" n="45"/>ria nobili propter duas causas, quia, vt dicit 
+            <lb ed="#J" n="46"/>Themistius, vt recitat Comment 12. meta. 
+            <lb ed="#J" n="47"/>com. 1d. magis debemus mirari de ingenio
+            ar<lb ed="#J" n="48" break="no"/>tificis facientis aliquid ex luto, quam ex
+            au<lb ed="#J" n="49" break="no"/>ro: quia nobilitas materiae obumbrat vigo 
+            <lb ed="#J" n="50"/>rem artis praesertim apud communem
+            ho<lb ed="#J" n="51" break="no"/>minum cognitionem, qui ab extrinsecis
+            iu<lb ed="#J" n="52" break="no"/>dicant, vt dicebat Anaxag. teferente Arist. 
+            <!--Averroes_DeAnima_JuntSecunda_11-0422.xml-->
+            <cb ed="#J" n="b"/>
+            <lb ed="#J" n="53"/>in 10. ethi. cap. 10. qui dicere consueuit
+            ne<lb ed="#J" n="54" break="no"/>quaquam nurari si absurdus multitudini 
+            <lb ed="#J" n="55"/>videretur: nam multitudo solum iudicat a 
+            <lb ed="#J" n="56"/>tebus externis. sapientes autem magis
+            admi<lb ed="#J" n="57" break="no"/>antur artem, quam materiam arti
+            subie<lb ed="#J" n="58" break="no"/>ctam. &amp; sic intelligitur dictum Themist. &amp; 
+            <lb ed="#J" n="59"/>haec est prima causa. Secunda causa est ex 
+            <lb ed="#J" n="60"/>impossibilitate materiae, quia materia vilis 
+            <lb ed="#J" n="61"/>ex sui impossibilitate cum maiori difficul 
+            <lb ed="#J" n="62"/>tate recipit impressionem artis, aut naturae, 
+            <lb ed="#J" n="63"/>&amp; difficilior redditur generatio. &amp; hanc cau 
+            <lb ed="#J" n="64"/>sam tetigit Commen. in allegato loco. Sed  
+            <lb ed="#J" n="65"/>habet dubium contra se. quia tunc
+            genera<lb ed="#J" n="66" break="no"/>tio animalium ex materia putri esset
+            diffi<lb ed="#J" n="67" break="no"/>cilior quam animalium ex semine
+            genito<lb ed="#J" n="68" break="no"/>rum, quod non conceditur, quia citius, &amp;  
+            <lb ed="#J" n="69"/>facilius generarentur, vt dicta experientia. sed  
+            <lb ed="#J" n="70"/>prima causa Themist. magis placet. Et ideo 
+            <lb ed="#J" n="71"/>in talibus, vt est natura &amp; ars, quia sunt cau 
+            <lb ed="#J" n="72"/>sae rerum, secus se habet quia in operationi 
+            <lb ed="#J" n="73"/>bus naturae, &amp; artis sapientes magis
+            exerci<lb ed="#J" n="74" break="no"/>tantur in contemplando scientiam Naruta 
+            <lb ed="#J" n="75"/>lem, id est a qua natura dirigitur, quam ex 
+            <lb ed="#J" n="76"/>rebus nobilioribus, vbi in eorum
+            genera<lb ed="#J" n="77" break="no"/>tionibus patent res particulares. Sicut
+            Phi<lb ed="#J" n="78" break="no"/>osophi plus admirantur de generatione 
+            <lb ed="#J" n="79"/>animalium ex putri materia generatorum, 
+            <lb ed="#J" n="80"/>quomodo talia generentur, &amp; qualis sit
+            eo<lb ed="#J" n="81" break="no"/>rum generatio a sibi simili vel conuenienti, 
+            <lb ed="#J" n="82"/>quam in generatione animalium, quae ab 
+            <lb ed="#J" n="83"/>vniuoco generantur, vbi causa proxima est 
+            <lb ed="#J" n="84"/>nota ad sensum: licet animal tale plus ex se 
+            <lb ed="#J" n="85"/>perfectionem diuinam repraesentet, &amp;
+            par<lb ed="#J" n="86" break="no"/>ticipet, quam animal vile. quia distantiae 
+            <lb ed="#J" n="87"/>entium sunt diuersae valde. sed in scientia 
+            <lb ed="#J" n="88"/>nostra secus est: quia est causata a scibilis re 
+            <lb ed="#J" n="89"/>bus, &amp; intelligere nostrum sequitur naturam. &amp;  
+            <lb ed="#J" n="90"/>nobilitatem rei intellectae, &amp; ordinem
+            re<lb ed="#J" n="91" break="no"/>rum, vt dicit Commenta. in libro destruct. 
+            <lb ed="#J" n="92"/>in disputa. 6. &amp;. 12. in plerisque locis, &amp; 12. 
+            <lb ed="#J" n="93"/>meta. commen. Si. 
+          </p>
+        </div>
+        <div xml:id="GHcsDA-d1e66-Dd1e334">
+          <head xml:id="GHcsDA-d1e66-Hd1e336">Contradictio 2</head>
+          <p xml:id="GHcsDA-d1e66-d1e339">
+            <lb ed="#J" n="94"/>Secunda contradictio est in tex. S. Arist. 
+            <lb ed="#J" n="95"/>dicit in hoc tex. quod animal vniuersale, aut 
+            <lb ed="#J" n="96"/>nihil est, aut posterius est Sed huius opposi 
+            <lb ed="#J" n="97"/>tum habetur. 12. metaphysi. commen. 17.
+            au<lb ed="#J" n="98" break="no"/>thoritate Alexan. vbi dicitur, quod vniuersalia 
+            <lb ed="#J" n="99"/>sunt priora in intellectu particularibus, 
+            <lb ed="#J" n="100"/>quae cum auferuntur, auferuntur
+            particu<lb ed="#J" n="101" break="no"/>laria. &amp; ideo existimantur esse substantiae 
+            <lb ed="#J" n="102"/>Soluitur. Auer. locum illum interpreratur 
+            <lb ed="#J" n="103"/>de illo vniuersali Platonico separato secun 
+            <lb ed="#J" n="104"/>dum esse a singularibus, dicens, illud, aut 
+            <lb ed="#J" n="105"/>nihil esse, aut si sit, nihil proficere ad defini 
+            <lb ed="#J" n="106"/>tiones rerum: quia res possunt sciri per
+            de<lb ed="#J" n="107" break="no"/>finitionem, non cogitando aliquid de
+            tali<lb ed="#J" n="108" break="no"/>vniuersali separato. Pro illa expositione 
+            <!--Averroes_DeAnima_JuntSecunda_11-0423.xml-->
+            <pb ed="#J" n="205-v"/>
+            <cb ed="#J" n="a"/>
+            <lb ed="#J" n="1"/>Auer. addueas scripta Philosophi in en. ethi 
+            <lb ed="#J" n="2"/>cap. 7. in fine capituli, satis ad propositum. 
+            <lb ed="#J" n="3"/>Alexander autem satis subtiliter interpreta 
+            <lb ed="#J" n="4"/>tus est locum illum in. I. libro naturalium 
+            <lb ed="#J" n="5"/>quaestionum, quaest. 13. &amp; breuiter sua inter 
+            <lb ed="#J" n="6"/>pretatio in hoc consistit, quod animal vt vniuer 
+            <lb ed="#J" n="7"/>sale conceptum siue vt genus posterius est. 
+            <lb ed="#J" n="8"/>ista enim sunt de secundo intellectis, &amp; ta 
+            <lb ed="#J" n="9"/>lia non significant aliquam veram naturam, 
+            <lb ed="#J" n="10"/>aut substantiam, sicut animal bene est
+            si<lb ed="#J" n="11" break="no"/>gnificatiuum substantiae cuiusdam, quia
+            si<lb ed="#J" n="12" break="no"/>gnificat substantiam animatam sensitiuam 
+            <lb ed="#J" n="13"/>&amp; est res aliqua, &amp; aliqua natura, cui
+            acci<lb ed="#J" n="14" break="no"/>dit vniuersalitas &amp; generalitas. sunt enim 
+            <lb ed="#J" n="15"/>ista accidentia. semper autem accidens est 
+            <lb ed="#J" n="16"/>posterius natura, cui accidit. Et ideo Aristo, 
+            <lb ed="#J" n="17"/>animaduertens ad hoc, quod animal
+            vni<lb ed="#J" n="18" break="no"/>uersale, idest sub intentione
+            vniuersalita<lb ed="#J" n="19" break="no"/>tis, vel sub intentione generalitatis, vt fic 
+            <lb ed="#J" n="20"/>aut nihil est, quia non significat vt sic
+            natu<lb ed="#J" n="21" break="no"/>ram aliquam subsistentem extra animam, 
+            <lb ed="#J" n="22"/>quia talis intentio est ens in anima
+            tan<lb ed="#J" n="23" break="no"/>tum, &amp; diminutum: aut posterius est, quia 
+            <lb ed="#J" n="24"/>vt sic, significat intentionem accidentem 
+            <lb ed="#J" n="25"/>rei &amp; naturae, cui accidit vniuersalitas, &amp;  
+            <lb ed="#J" n="26"/>generalitas. nam, si vnum solum animal 
+            <lb ed="#J" n="27"/>in natura subsisteret, adhuc natura illa, 
+            <lb ed="#J" n="28"/>quae est substantia animata sensitiua rema 
+            <lb ed="#J" n="29"/>neret: tamen non esset illud vniuersale prae 
+            <lb ed="#J" n="30"/>dicabile de pluribus. &amp; ideo vt sic est
+            ali<lb ed="#J" n="31" break="no"/>quid posterius. Dicit enim Commenta. in 
+            <lb ed="#J" n="32"/>septimo primae philosophiae commen. A6. 
+            <lb ed="#J" n="33"/>definitiones vniuersalium habent aliquam 
+            <lb ed="#J" n="34"/>dispositionem dispositionum
+            substantia<lb ed="#J" n="35" break="no"/>lium existentem extra animam, &amp; qualita 
+            <lb ed="#J" n="36"/>tem accidentem eis: significans nobis per
+            <lb ed="#J" n="37"/>
+            <!-- line coord error -->
+            <lb ed="#J" n="38"/>hoc quod vniuersale potest sumi
+            duplici<lb ed="#J" n="39" break="no"/>ter, videlicet pro natura &amp; re, quae est fun 
+            <lb ed="#J" n="40"/>damentum, &amp; pro qualitate, quae est inten 
+            <lb ed="#J" n="41"/>tio &amp; accidens, fundatum in illa re. &amp; sic 
+            <lb ed="#J" n="42"/>quo ad qualitatem. vel animal sub illa qua 
+            <lb ed="#J" n="43"/>litate conceptum, quatenus sic concipitur, 
+            <lb ed="#J" n="44"/>aut nihil est, aut posterius. Et ita locus ille 
+            <lb ed="#J" n="45"/>potest legi secundum mentem Aristot. Sed 
+            <lb ed="#J" n="46"/>qualitercunque sit, quantum ad
+            proposi<lb ed="#J" n="47" break="no"/>tam contradictionem, isto modo
+            respon<lb ed="#J" n="48" break="no"/>detur, quod vniuersalia possunt
+            duplici<lb ed="#J" n="49" break="no"/>ter comparari ad particularia, vno modo 
+            <lb ed="#J" n="50"/>quo ad esse, alio modo, quo ad
+            intelle<lb ed="#J" n="51" break="no"/>ctum. ista est distinctio Auerro. authorita. 
+            <lb ed="#J" n="52"/>te Alexand. in. 12. metaphysi. commen. 17. 
+            <lb ed="#J" n="53"/>quod si comparentur quo ad esse, sic sunt 
+            <lb ed="#J" n="54"/>posteriora. vnde Aristote. dixit in
+            praedica<lb ed="#J" n="55" break="no"/>mentis, quod ablatis primis substantiis, im 
+            <lb ed="#J" n="56"/>possibile est aliquid aliorum remanere. sed  
+            <lb ed="#J" n="57"/>quo ad intellectum secus est. Hoc dicit Com. 
+            <!--Averroes_DeAnima_JuntSecunda_11-0423.xml-->
+            <cb ed="#J" n="b"/>
+            <lb ed="#J" n="58"/>menta. expresse ex intentione Alexand, in 
+            <lb ed="#J" n="59"/>commen. vigesimoseptimo, duodecimo
+            pri<lb ed="#J" n="60" break="no"/>mae philosophiae. ita etiam dicit dominus 
+            <lb ed="#J" n="61"/>Albertus. i12. primae philosophiae, tractatu 
+            <lb ed="#J" n="62"/>primo capit. secundo. 
+          </p>
+        </div>
+        <div xml:id="GHcsDA-d1e66-Dd1e522">
+          <head xml:id="GHcsDA-d1e66-Hd1e524">Contradictio 3</head>
+          <p xml:id="GHcsDA-d1e66-d1e527">
+            <lb ed="#J" n="63"/>Tertia contradi. est in tex. 16. Aristote. &amp;  
+            <lb ed="#J" n="64"/>Commen ponunt differentiam inter
+            Phy<lb ed="#J" n="65" break="no"/>sicum &amp; Dialecticum, quia Dialecticus
+            de<lb ed="#J" n="66" break="no"/>finit per formam, &amp; Naturalis per materiam. 
+            <lb ed="#J" n="67"/>Sed oppositum habetur ex primo
+            physico<lb ed="#J" n="68" break="no"/>com. I. vbi dicitur quod Mathernaticus solum 
+            <lb ed="#J" n="69"/>genus causae formalis consyderat, &amp; ita om 
+            <lb ed="#J" n="70"/>nes definitiones mathematicae erunt
+            diale<lb ed="#J" n="71" break="no"/>cticae &amp; vanae, aut assignetur causa
+            diuersi<lb ed="#J" n="72" break="no"/>tatis inter Dialecticum &amp; Mathematicum. 
+            <lb ed="#J" n="73"/>oluitur. ideo definitiones dialecticae sunt 
+            <lb ed="#J" n="74"/>per formam, quia forma est subiectum vni 
+            <lb ed="#J" n="75"/>uersalitatis &amp; communitatis, vt dicit Com 
+            <lb ed="#J" n="76"/>menta. primo coeli com. 7x. &amp; ideo non
+            fa<lb ed="#J" n="77" break="no"/>ciunt scire. Amplius autem licet forma sit 
+            <lb ed="#J" n="78"/>causa alicuius effectus, non tamen ab ipso 
+            <lb ed="#J" n="79"/>Dialectico consyderantur, vt est causa talis 
+            <lb ed="#J" n="80"/>effectus, alioquin non solum per formam, 
+            <lb ed="#J" n="81"/>verum etiam &amp; per materiam definiret, vt 
+            <lb ed="#J" n="82"/>appetitus vindictae, licet sit causa
+            accensio<lb ed="#J" n="83" break="no"/>nis sangninis circa cor, non tamen Dialecti 
+            <lb ed="#J" n="84"/>cus in definiendo iram per appetitum
+            vin<lb ed="#J" n="85" break="no"/>dictae, definit, vt per causam accensionis:  
+            <lb ed="#J" n="86"/>quia talis definitio esset relatiua, &amp; non ab 
+            <lb ed="#J" n="87"/>oluta, sicut sunt definitiones naturales. vn 
+            <lb ed="#J" n="88"/>de Commenta. dicit disputatores absolute 
+            <lb ed="#J" n="89"/>consyderare. quod propterea dicit ad
+            diffe<lb ed="#J" n="90" break="no"/>rentiam Naturalis, qui definit per formam, 
+            <lb ed="#J" n="91"/>vt est causa materiae: secundi physicorum 
+            <lb ed="#J" n="92"/>36. &amp;. 73. Sed dialecticus definit per formam 
+            <lb ed="#J" n="93"/>absolute consyderatam, non
+            consyderan<lb ed="#J" n="94" break="no"/>do vt est causa materiae, nec alicuius
+            mate<lb ed="#J" n="95" break="no"/>rialis proprietatis. vnde cum in rebus
+            plu<lb ed="#J" n="96" break="no"/>rimis haec tria sunt. materia, &amp; forma, &amp;  
+            <lb ed="#J" n="97"/>causa, per quam forma est in materia, om 
+            <lb ed="#J" n="98"/>nia ista ponuntur in definitionibus
+            natu<lb ed="#J" n="99" break="no"/>ralibus. &amp; hoc est, quod dixit Arist. 19.
+            tex<lb ed="#J" n="100" break="no"/>quod ira, &amp; quaelibet passio animae concupisci 
+            <lb ed="#J" n="101"/>pilis definitur, vt est in materia ab hoc, &amp;  
+            <lb ed="#J" n="102"/>huius gratia. sed Dialecticus per solam
+            for<lb ed="#J" n="103" break="no"/>mam debet desinire. Mathematicus autem 
+            <lb ed="#J" n="104"/>licet consyderet formam, quae secundum esse est 
+            <lb ed="#J" n="105"/>in materia, non tamen consyderat causam 
+            <lb ed="#J" n="106"/>propter qua forma est in tali materia
+            trans<lb ed="#J" n="107" break="no"/>mutabili. quia hoc consyderat naturalis. &amp;  
+            <lb ed="#J" n="108"/>isto modo dicitur solum genus causae
+            for<lb ed="#J" n="109" break="no"/>malis Mathematicus consyderare. tamen 
+            <lb ed="#J" n="110"/>pene Mathematicus istam formam
+            consy<lb ed="#J" n="111" break="no"/>derat, vt est causa proprietatum fiuentium a 
+            <lb ed="#J" n="112"/>ali forma, vt in tali esse abstractionis
+            con<lb ed="#J" n="113" break="no"/>syderatae sunt. Oeometer, licet non consy¬ 
+            <!--Averroes_DeAnima_JuntSecunda_11-0424.xml-->
+            <pb ed="#J" n="206-r"/>
+            <cb ed="#J" n="a"/>
+            <lb ed="#J" n="1"/>deret figuram triangularem, vt habet
+            cau<lb ed="#J" n="2" break="no"/>sam, quia est in materia sensibili, puta vel 
+            <lb ed="#J" n="3"/>in aere aut ligno, consyderat tamen causam 
+            <lb ed="#J" n="4"/>proprietatum suarum, &amp; vt habet talem 
+            <lb ed="#J" n="5"/>causam, videlicet quia habet tres, &amp; per
+            il<lb ed="#J" n="6" break="no"/>lam demonstrat. Secus autem est de Diale 
+            <lb ed="#J" n="7"/>ctico. quia Dialecticus non solum non
+            com<lb ed="#J" n="8" break="no"/>syderat formam abstrahendo ab hoc, quod 
+            <lb ed="#J" n="9"/>est habere causam sui esse in materia
+            sensi<lb ed="#J" n="10" break="no"/>bili: imino etiam neque consyderat ipsam, 
+            <lb ed="#J" n="11"/>vt est causa, vel habens causam alicuius 
+            <lb ed="#J" n="12"/>effectus, vel alicuius proprietatis. &amp; ideo com 
+            <lb ed="#J" n="13"/>syderatio eius est absoluta communis, &amp; 
+            <lb ed="#J" n="14"/>vana per consequens, pro quanto non po 
+            <lb ed="#J" n="15"/>test esse medium in demonstratione, qua 
+            <lb ed="#J" n="16"/>est per causam, propter quam res est, &amp; quo 
+            <lb ed="#J" n="17"/>niam illius est causa. quia, licet Dialecticus 
+            <lb ed="#J" n="18"/>definiat per illud, quod est causa, non
+            ta<lb ed="#J" n="19" break="no"/>men sub illa ratione, qua causa, sed vt est 
+            <lb ed="#J" n="20"/>vnum entium absolute. Et nota bene hoc, 
+            <lb ed="#J" n="21"/>quia pauci admodum ante nostra tempo 
+            <lb ed="#J" n="22"/>ra intellexerunt istud. Et adde quod vltra 
+            <lb ed="#J" n="23"/>praedictam causam ideo Dialecticus
+            dici<lb ed="#J" n="24" break="no"/>tur artifex absolute consyderans, quia
+            cir<lb ed="#J" n="25" break="no"/>ra ens simpliciter tres artifices versantur. 4A. 
+            <lb ed="#J" n="26"/>primae philosophiae tex. com. 3. primus
+            Philo<lb ed="#J" n="27" break="no"/>sophus, Dialecticus, &amp; Sophista. de omnibus 
+            <lb ed="#J" n="28"/>enim Dialecticus disserit ex communibus, 
+            <lb ed="#J" n="29"/>&amp; probabiliter. 
+          </p>
+        </div>
+        <div xml:id="GHcsDA-d1e66-Dd1e711">
+          <head xml:id="GHcsDA-d1e66-Hd1e713">Contradictio 4</head>
+          <p xml:id="GHcsDA-d1e66-d1e716">
+            <lb ed="#J" n="30"/>Quarta contradi. est in eodem tex. Quia 
+            <lb ed="#J" n="31"/>Philosophus ponens differentiam inter Phi 
+            <lb ed="#J" n="32"/>sicum &amp; dialecticum, dicit quod physiens 
+            <lb ed="#J" n="33"/>definit per materiam, &amp; Dialecticus per
+            for<lb ed="#J" n="34" break="no"/>mam. Sed huius oppositum habetur in tex. 
+            <lb ed="#J" n="35"/>immediate sequenti, videlicet in. 17. vbi in 
+            <lb ed="#J" n="36"/>quit quod non est aliquis artifex, qui per 
+            <lb ed="#J" n="37"/>solam materiam definiat. Soluitur. illa
+            dif<lb ed="#J" n="38" break="no"/>ferentia est intelligenda cum praecisione. 
+            <lb ed="#J" n="39"/>nam Dialecticus definit per solam formam 
+            <lb ed="#J" n="40"/>sine materia, sed Physicus per materiam &amp; 
+            <lb ed="#J" n="41"/>formam: &amp; qui per materiam &amp; formam 
+            <lb ed="#J" n="42"/>definit, dicitur per materiam definire. quia 
+            <lb ed="#J" n="43"/>igitur illud, quod discernit Physicum a 
+            <lb ed="#J" n="44"/>Dialectico, materia est &amp; non forma, ideo 
+            <lb ed="#J" n="45"/>in tali discrimine materia exprimitur 
+            <lb ed="#J" n="46"/>Nam expressa sententia Arist. ibi est quod
+            nul<lb ed="#J" n="47" break="no"/>lus artifex per solam materiam definire po 
+            <lb ed="#J" n="48"/>test. Vnde hoc etiam elicitur ex intentione 
+            <lb ed="#J" n="49"/>Philosophi ibidem. nam, cum triplex possit 
+            <lb ed="#J" n="50"/>definitio assignari, per materiam solum, 
+            <lb ed="#J" n="51"/>per. solam formam, &amp; per materiam &amp;
+            for<lb ed="#J" n="52" break="no"/>mam: quae istarum inquit Philosophus
+            de<lb ed="#J" n="53" break="no"/>finitio Naturalis erit? Et solutio est, quod 
+            <lb ed="#J" n="54"/>iila, quae est ex vtrisque. &amp; ista est melior so 
+            <lb ed="#J" n="55"/>lutio, quae dari pot est in illo loco. quia ma 
+            <lb ed="#J" n="56"/>teria in Naturali Philosophia relatiue co¬ 
+            <!--Averroes_DeAnima_JuntSecunda_11-0424.xml-->
+            <cb ed="#J" n="b"/>
+            <lb ed="#J" n="57"/>gnoscitur, vt est ad formam, &amp; vt est
+            mate<lb ed="#J" n="58" break="no"/>ria formae. 2. phy. 36. &amp; per consequdes
+            Phy<lb ed="#J" n="59" break="no"/>sicus vt Physicus per solam materiam
+            defi<lb ed="#J" n="60" break="no"/>ire non potest. Differentia illa est cum 
+            <lb ed="#J" n="61"/>praecisione intelligenda. quia Dialecticus per  
+            <lb ed="#J" n="62"/>formam tantum, sed physicus per materiam &amp;  
+            <lb ed="#J" n="63"/>formamsimul. &amp;, quia in materia est
+            ratio<lb ed="#J" n="64" break="no"/>in qua Dialecticus distat a physico, illud fuit 
+            <lb ed="#J" n="65"/>expressum, sicut est in simili, artes &amp; scien 
+            <lb ed="#J" n="66"/>tiam Naturalem. Nam Medicina, quae est 
+            <lb ed="#J" n="67"/>ars mechanica, vt dicit Com. est enim de artibus 
+            <lb ed="#J" n="68"/>operatiuis, circa quaedam est, quia est circa 
+            <lb ed="#J" n="69"/>quaedam corpora, i. humana. Naturalis
+            ve<lb ed="#J" n="70" break="no"/>ro est de omnibus corporibus, tam simplici 
+            <lb ed="#J" n="71"/>bus quam mixtis, tam animatis, quam
+            inani<lb ed="#J" n="72" break="no"/>matis. Similiter Medicina sanitatis &amp;
+            aegri<lb ed="#J" n="73" break="no"/>tudinis quasdam causas consyderat scilicet parti 
+            <lb ed="#J" n="74"/>culares, seu propinquas: sed Naturalis
+            om<lb ed="#J" n="75" break="no"/>nes causas &amp; propinquas &amp; remotas. &amp;  
+            <lb ed="#J" n="76"/>quia remotae a Medico non consyderantur, 
+            <lb ed="#J" n="77"/>sed a physico, ideo Aristo. in principio libri 
+            <lb ed="#J" n="78"/>de sensu &amp; sensilibus illas expressit, dum
+            di<lb ed="#J" n="79" break="no"/>cit quod Physici est sanitatis prima &amp; aegri 
+            <lb ed="#J" n="80"/>udinis inuestigare principia. Et si dicatur, 
+            <lb ed="#J" n="81"/>quod exemplum Aristote. est in
+            opposi<lb ed="#J" n="82" break="no"/>tum de ira: quia dicit quod Physicus dicit 
+            <lb ed="#J" n="83"/>uod est accensio sanguinis circa cor,
+            Dia<lb ed="#J" n="84" break="no"/>lecticus vero, quod est appetitus vindictae, 
+            <lb ed="#J" n="85"/>Soluitur eodem modo. quia Aristote.
+            ex<lb ed="#J" n="86" break="no"/>pressit illud, in quo est differentia inter 
+            <lb ed="#J" n="87"/>Physicum &amp; Dialecticum. nam, cum Phy 
+            <lb ed="#J" n="88"/>sicus definit iram, dicit illam esse accensio 
+            <lb ed="#J" n="89"/>nem sanguinis circa cor propter appetitum 
+            <lb ed="#J" n="90"/>vindictae, &amp; iam dixerat hoc supra quod  
+            <lb ed="#J" n="91"/>passiones animae sunt communes animae 
+            <lb ed="#J" n="92"/>&amp; corpori, &amp; per consequens sunt
+            coniun<lb ed="#J" n="93" break="no"/>cti, tex. commen. decimoquinto. &amp; quod 
+            <lb ed="#J" n="94"/>est motus talis corporis an hoc gratia
+            hu<lb ed="#J" n="95" break="no"/>us. &amp; ideo Physicus de omni tali anima, &amp;  
+            <lb ed="#J" n="96"/>passionibus, quae sine materia non sunt, de 
+            <lb ed="#J" n="97"/>finit. &amp; dat exemplum de ira, quod est
+            accen<lb ed="#J" n="98" break="no"/>sio sanguinis in tali corpore ab hoc, huius 
+            <lb ed="#J" n="99"/>gratia. vbi expresse dicit omnes causas in 
+            <lb ed="#J" n="100"/>ea poni. &amp; qui dicit totum, dicit &amp; partes. 
+            <lb ed="#J" n="101"/>vnde non dicit tex. quod physicus per solam ma 
+            <lb ed="#J" n="102"/>teriam definiat, sed per materiam. &amp; hoc est 
+            <lb ed="#J" n="103"/>multum differens. Alii dicunt quod
+            definitio<lb ed="#J" n="104" break="no"/>nes per solam materiam datae sunt natura 
+            <lb ed="#J" n="105"/>les, sed imperfecte. &amp; est solutio Themistil, 
+            <lb ed="#J" n="106"/>&amp; aliorum. Sed hoc non probaret. quia 
+            <lb ed="#J" n="107"/>Arist. dicit nullum artificem per solam ma 
+            <lb ed="#J" n="108"/>teriam definire. &amp; praeterea definitiones 
+            <lb ed="#J" n="109"/>naturales sunt media in
+            demonstrationi<lb ed="#J" n="110" break="no"/>pus, sed materia, circumscripta forma, non  
+            <lb ed="#J" n="111"/>est causa alicuius naturalis proprietatis, 
+            <lb ed="#J" n="112"/>sed vt est coniuncta formae. vnde materia 
+            <!--Averroes_DeAnima_JuntSecunda_11-0425.xml-->
+            <pb ed="#J" n="206-v"/>
+            <cb ed="#J" n="a"/>
+            <lb ed="#J" n="1"/>abstracta a forma non est naturalis
+            consy<lb ed="#J" n="2" break="no"/>derationis, vt alias declaraui. quia omnis com 
+            <lb ed="#J" n="3"/>ceptus habitus de materia a naturali, est
+            re<lb ed="#J" n="4" break="no"/>latiuus: &amp; ideo nullo pacto Naturalis
+            defi<lb ed="#J" n="5" break="no"/>nit per solam materiam. esset enim vana 
+            <lb ed="#J" n="6"/>ista definitio, cum ex ea non posset
+            conclu<lb ed="#J" n="7" break="no"/>di aliquod accidens proprium. Et consydera 
+            <lb ed="#J" n="8"/>subtiliter hic. &amp; hic siste gradum. quia, si 
+            <lb ed="#J" n="9"/>quaeratur quid prohibet, vt quemadmodum 
+            <lb ed="#J" n="10"/>Dialecticus definiens per formam, non de 
+            <lb ed="#J" n="11"/>finit per eam, vt est causa alicuius, nec vt ha 
+            <lb ed="#J" n="12"/>bet causam sui esse in materia, sed solum 
+            <lb ed="#J" n="13"/>vt est res quaedam, eodem modo etiam non 
+            <lb ed="#J" n="14"/>definire queat per solam materiam, non vt 
+            <lb ed="#J" n="15"/>est causa, nec causam habens, propter quam 
+            <lb ed="#J" n="16"/>sit sub tali forma, sed potius vt est res
+            quae<lb ed="#J" n="17" break="no"/>dam. non enim per vitam meam videtur es 
+            <lb ed="#J" n="18"/>se ratio diuersitatis in hoc inter materiam 
+            <lb ed="#J" n="19"/>&amp; formam. quia dialecticus circa totum ens 
+            <lb ed="#J" n="20"/>simpliciter versari potest ex. 4. primae philo 
+            <lb ed="#J" n="21"/>sophiae. &amp; est dubium satis ardum, sicut
+            vi<lb ed="#J" n="22" break="no"/>des. Nisi esset quod ideo Philosophi genus
+            de<lb ed="#J" n="23" break="no"/>finiendi per formam appropriauerunt 
+            <lb ed="#J" n="24"/>Dialectico, quia causa communitatis est 
+            <lb ed="#J" n="25"/>forma, &amp; Dialecticus ex communibus disse 
+            <lb ed="#J" n="26"/>rit. Et ideo animaduerte quod definitio per solam 
+            <lb ed="#J" n="27"/>materiam nullius artificis est scientifice de 
+            <lb ed="#J" n="28"/>finientis, neque esse poterit artificis
+            com<lb ed="#J" n="29" break="no"/>munis per communia disserentis. quia com. 
+            <lb ed="#J" n="30"/>munitas non est a materia, vt materia
+            di<lb ed="#J" n="31" break="no"/>stinguitur contra formam sua proprietate, 
+            <lb ed="#J" n="32"/>nisi subiret modum formae, &amp; sub ratione 
+            <lb ed="#J" n="33"/>communitatis, sed hoc non erit ratione, qua 
+            <lb ed="#J" n="34"/>materia. Et ideo videtur mihi sine praeiudi 
+            <lb ed="#J" n="35"/>cio melioris sententiae, quod Dialecticus vtrun 
+            <lb ed="#J" n="36"/>que potest efficere, &amp; vt definiat per solam 
+            <lb ed="#J" n="37"/>formam, &amp; per solam materiam, vt vtrumque 
+            <lb ed="#J" n="38"/>consyderatur, vt est res quaedam, quia non 
+            <lb ed="#J" n="39"/>video, quare hoc non possit efficere. tamen 
+            <lb ed="#J" n="40"/>semper ista consyderatio erit per commu 
+            <lb ed="#J" n="41"/>nia. &amp; quia communitas est a forma, ideo 
+            <lb ed="#J" n="42"/>materia illo modo posita in dialectica de 
+            <lb ed="#J" n="43"/>finitione habebit modum formae, quia non  
+            <lb ed="#J" n="44"/>consyderatur sub ratione proptia, sed sub 
+            <lb ed="#J" n="45"/>ratione communi. Tamen animaduerte quod 
+            <lb ed="#J" n="46"/>vt dicit Arist. in 2. phy. in fine. definitiones 
+            <lb ed="#J" n="47"/>omnes naturales dantur per materiam, vel 
+            <lb ed="#J" n="48"/>apparenter, vel consecutiue, ita etiam om 
+            <lb ed="#J" n="49"/>nes definitiones naturales habent formam, 
+            <lb ed="#J" n="50"/>vel apparenter, vel consecutiue. Vnde illa 
+            <lb ed="#J" n="51"/>irae dehinitio naturalis est, quae dicit iram esse 
+            <lb ed="#J" n="52"/>accensionem sanguinis circa cor: sed non 
+            <lb ed="#J" n="53"/>est data per solam materiam, vt tu
+            finge<lb ed="#J" n="54" break="no"/>bas in argumento, quia, vt dicit in tex. ita &amp;  
+            <lb ed="#J" n="55"/>vniuersaliter opera, &amp; passiones animae sunt 
+            <lb ed="#J" n="56"/>talis corporis, &amp; talis animae. non enim sunt 
+            <!--Averroes_DeAnima_JuntSecunda_11-0425.xml-->
+            <cb ed="#J" n="b"/>
+            <lb ed="#J" n="57"/>cuiuslibet corporis, sed corporis physici po 
+            <lb ed="#J" n="58"/>tentia vitam habentis, &amp; hoc est
+            anima<lb ed="#J" n="59" break="no"/>tum corpus. vnde sanguis est pars similaris 
+            <lb ed="#J" n="60"/>corporis animati, vt dicitur in. 2. de
+            parti<lb ed="#J" n="61" break="no"/>bus animalium. cap. 2. cor est pars
+            dissimi<lb ed="#J" n="62" break="no"/>sari. non enim sanguis extractus a vena
+            dicitu<lb ed="#J" n="63" break="no"/>citur sanguis, nec cor in cadauere existens 
+            <lb ed="#J" n="64"/>dicitur cor ecce igitur quod apparet consecuti 
+            <lb ed="#J" n="65"/>ue forma in illa definitione. Sed, si quis
+            in<lb ed="#J" n="66" break="no"/>terrogetur vtrum imaginando istam defini 
+            <lb ed="#J" n="67"/>tionem irae per sanguinem, &amp; cor datam. 
+            <lb ed="#J" n="68"/>non vt sanguis est vere sanguis, &amp; cor verum 
+            <lb ed="#J" n="69"/>cor, sed vt sunt substantiae quaedam
+            corpo<lb ed="#J" n="70" break="no"/>reae absolute, non in ordine ad corpus
+            ani<lb ed="#J" n="71" break="no"/>matum, cuius sunt partes, non est dubiuam 
+            <lb ed="#J" n="72"/>quod illa definitio taliter consyderata esset per  
+            <lb ed="#J" n="73"/>communia, &amp; dialectica, &amp; vana ex
+            conse<lb ed="#J" n="74" break="no"/>quenti. Oquantum placet mihi per vitam 
+            <lb ed="#J" n="75"/>meam. Deo laus illustranti intellectum.
+            di<lb ed="#J" n="76" break="no"/>citur etiam Physicus materiam
+            consydera<lb ed="#J" n="77" break="no"/>re, quia omnem causam consyderat secundum 
+            <lb ed="#J" n="78"/>esse, quod habet in materia. Vn de causam 
+            <lb ed="#J" n="79"/>mouentem consyderat, vt mouet materiam 
+            <lb ed="#J" n="80"/>ad formam secundum esse, quod habet in  
+            <lb ed="#J" n="81"/>materia: &amp; finem, secundum quod est
+            termi<lb ed="#J" n="82" break="no"/>nus motus, per quem mouetur materia, &amp;  
+            <lb ed="#J" n="83"/>materiam secundum quod est subiectum 
+            <lb ed="#J" n="84"/>formae secundum esse, quod habet forma in mate 
+            <lb ed="#J" n="85"/>ria, vt dicit Albertus in digressione. vnde 
+            <lb ed="#J" n="86"/>Commenta. 2. physico. in quo est materia. 
+            <lb ed="#J" n="87"/>sunt omnes causae 
+          </p>
+        </div>
+        <div xml:id="GHcsDA-d1e66-Dd1e1103">
+          <head xml:id="GHcsDA-d1e66-Hd1e1105">Contradictio 5</head>
+          <p xml:id="GHcsDA-d1e66-d1e1108">
+            <lb ed="#J" n="88"/>Quinta contradi est super eod. tex. Aris. 
+            <lb ed="#J" n="89"/>&amp; Auer. dicunt Physicum definire per
+            ma<lb ed="#J" n="90" break="no"/>teriam. Sed huius oppositum scribit Them. 
+            <lb ed="#J" n="91"/>in. 2. phy. tex. com. 2. I. vbi dicit quod definiturus 
+            <lb ed="#J" n="92"/>rem naturalem in definitionibus vtetur 
+            <lb ed="#J" n="93"/>materia, sed definiet per formam. Soluitur. 
+            <lb ed="#J" n="94"/>sine dubio scientiae speculatiuae distinguun 
+            <lb ed="#J" n="95"/>tur ex diuersis modis definiendi, vt patet. 6. 
+            <lb ed="#J" n="96"/>primae philosophiae in tex. com. 2. &amp; quia in 
+            <lb ed="#J" n="97"/>definitionibus rerum naturalium dicitur, 
+            <lb ed="#J" n="98"/>apparere natura: quia res naturales
+            consti<lb ed="#J" n="99" break="no"/>tuuntur per naturam, sicut artificiales per  
+            <lb ed="#J" n="100"/>artem: sic definitiones naturales dantur per 
+            <lb ed="#J" n="101"/>materiam sensibilem, quia in eis apparet 
+            <lb ed="#J" n="102"/>natura, quae est principium motus, &amp;
+            om<lb ed="#J" n="103" break="no"/>nium qualitatum sensibilium. sed cum du 
+            <lb ed="#J" n="104"/>plex sit natura, videlicet materia, &amp; forma: 
+            <lb ed="#J" n="105"/>secundum Peripareticos autem forima est tota 
+            <lb ed="#J" n="106"/>quiditas, materia autem est veluti vehiculum 
+            <lb ed="#J" n="107"/>&amp; fundamentum deferens quiditatem: ideo 
+            <lb ed="#J" n="108"/>in definiti onibus rerum naturalium,
+            appa<lb ed="#J" n="109" break="no"/>rere dicitur materia, non quia ad quiditatem 
+            <lb ed="#J" n="110"/>pertineat: sed pro quanto forma definiti di 
+            <lb ed="#J" n="111"/>citur huiusmodi secundum dispositiones, in
+            qui<lb ed="#J" n="112" break="no"/>bus existit, vt dicit Commenta. . de anima. 
+            <!--Averroes_DeAnima_JuntSecunda_11-0426.xml-->
+            <pb ed="#J" n="207-r"/>
+            <cb ed="#J" n="a"/>
+            <lb ed="#J" n="1"/>com. 16. Sic igitur Themistius dixit,
+            defini<lb ed="#J" n="2" break="no"/>tiones naturales dari per formam, quia
+            de<lb ed="#J" n="3" break="no"/>finitio exprimit quiditatem, &amp; forma est 
+            <lb ed="#J" n="4"/>quiditas. materia autem neque quiditas est 
+            <lb ed="#J" n="5"/>neque habens quiditatem, quia non est ne 
+            <lb ed="#J" n="6"/>que forma, neque formatum. sed quia est 
+            <lb ed="#J" n="7"/>necessaria in definitionibus propter
+            cau<lb ed="#J" n="8" break="no"/>sam praedi Sam, ideo Themistius illo
+            mo<lb ed="#J" n="9" break="no"/>do dixit. vnde aequiuocatio est in dubio, 
+            <lb ed="#J" n="10"/>quia Physicus definit per materiam sensibi 
+            <lb ed="#J" n="11"/>lem modo praedicto, sed sermo Themistil 
+            <lb ed="#J" n="12"/>est in comparando materiam, quae est natura, 
+            <lb ed="#J" n="13"/>ad formam, quae est nobilior natura, propter. 
+            <lb ed="#J" n="14"/>quam materia est in effectu. 
+          </p>
+        </div>
+        <div xml:id="GHcsDA-d1e66-Dd1e1203">
+          <head xml:id="GHcsDA-d1e66-Hd1e1205">Contradictio 6</head>
+          <p xml:id="GHcsDA-d1e66-d1e1208">
+            <lb ed="#J" n="15"/>Sexta contradi. est in com. 14. Habet
+            Auer<lb ed="#J" n="16" break="no"/>quod intellectus non eodem modo existit in  
+            <lb ed="#J" n="17"/>omnibus hominibus. istud autem videtur, 
+            <lb ed="#J" n="18"/>repugnare vnitati intellectus, quam ponit 
+            <lb ed="#J" n="19"/>com. 2. tertii. huius. Soluitur secundum ipsum. Na 
+            <lb ed="#J" n="20"/>hic loquitur de intellectu particulari, qui 
+            <lb ed="#J" n="21"/>est virtus cogitatiua: ista enim non eodem 
+            <lb ed="#J" n="22"/>modo praeparata inuenitur in omnibus homibus 
+            <lb ed="#J" n="23"/>sed intellectus, de quo loquitur com. 3. dicens 
+            <lb ed="#J" n="24"/>ipsum vnum esse, &amp; intellectus abstractus a 
+            <lb ed="#J" n="25"/>materia vniuersaliter comprehensiuus. &amp; in 
+            <lb ed="#J" n="26"/>illo non est varietas, sed, si quandoque apparet 
+            <lb ed="#J" n="27"/>varietas, hoc est in relatione cogitatiuae sibi 
+            <lb ed="#J" n="28"/>deferuientis ad intelligere nostrum. 
+          </p>
+        </div>
+        <div xml:id="GHcsDA-d1e66-Dd1e1242">
+          <head xml:id="GHcsDA-d1e66-Hd1e1244">Contradictio 7</head>
+          <p xml:id="GHcsDA-d1e66-d1e1247">
+            <lb ed="#J" n="29"/>Septima contradi. est in commen. 30. Dicit 
+            <lb ed="#J" n="30"/>Auer. ignem esse manifestum est. Sed oppo 
+            <lb ed="#J" n="31"/>situm. 4. coeli com. 12. quia esse eius ibi demon 
+            <lb ed="#J" n="32"/>stratur. Soluunt aliqui, esse ignis manifestum 
+            <lb ed="#J" n="33"/>est, &amp; non demonstratur: sed esse ignis in lo 
+            <lb ed="#J" n="34"/>co suo proprio hoc latet, &amp; hoc est, quod de 
+            <lb ed="#J" n="35"/>monstratur. Solutio non sapit viam
+            Auer<lb ed="#J" n="36" break="no"/>quia Commen. in com. illo. 32. dicit illam est 
+            <lb ed="#J" n="37"/>se demonstrationem ad demonstrandum 
+            <lb ed="#J" n="38"/>esse ignis, qui est species, &amp; pars subiectiua 
+            <lb ed="#J" n="39"/>subiecti illius libri, quod raro contingit. Ideo 
+            <lb ed="#J" n="40"/>aliter soluo. ignis duplex, teste Auer. &amp; Ale 
+            <lb ed="#J" n="41"/>xan. 2. de generatione com. 2i. &amp;. 4. coeli. 33. 
+            <lb ed="#J" n="42"/>scilicet inferior, &amp; superior, qui est in vlti 
+            <lb ed="#J" n="43"/>mo continentis. Et primus quidem ignis, 
+            <lb ed="#J" n="44"/>manifestus est ad sensum: sed secundus nul 
+            <lb ed="#J" n="45"/>lo sensu comprehenditur, sed ratione, &amp;
+            di<lb ed="#J" n="46" break="no"/>scursu demonstratur. 
+          </p>
+        </div>
+        <div xml:id="GHcsDA-d1e66-Dd1e1290">
+          <head xml:id="GHcsDA-d1e66-Hd1e1292">Contradictio 8</head>
+          <p xml:id="GHcsDA-d1e66-d1e1295">
+            <lb ed="#J" n="47"/>octaua contradi. est in com. 32. Niillus,
+            in<lb ed="#J" n="48" break="no"/>iuit Cemmen &amp; Philosophtis, posuit
+            ter<lb ed="#J" n="49" break="no"/>ram esse principium. Oppositum habetur 
+            <lb ed="#J" n="50"/>de Hesiodo. 3. meta. tex. com. 14. Soluitur.
+            in<lb ed="#J" n="51" break="no"/>telligitur de naturaliter loquentibus,
+            quo<lb ed="#J" n="52" break="no"/>rum nullus posuit solam terram esse
+            princi<lb ed="#J" n="53" break="no"/>pium. instantia de Hesi odo cessat, quia
+            ip<lb ed="#J" n="54" break="no"/>se fuit leges imitatus, &amp; Thcologiam metri 
+            <lb ed="#J" n="55"/>re composuit, vt est famosum.
+          </p>
+        </div>
+        <div xml:id="GHcsDA-d1e66-Dd1e1318">
+          <head xml:id="GHcsDA-d1e66-Hd1e1320">Contradictio 9</head>
+          <p xml:id="GHcsDA-d1e66-d1e1323">
+            <lb ed="#J" n="56"/>Nona contradi. est in. 37. com. Quia dicit, 
+            <!--Averroes_DeAnima_JuntSecunda_11-0426.xml-->
+            <cb ed="#J" n="b"/>
+            <lb ed="#J" n="57"/>quod motus essentialiter attribuitur homini 
+            <lb ed="#J" n="58"/>per pedes. Oppositum. 6. phy. 39. &amp;. 7. physi. 
+            <lb ed="#J" n="59"/>com. 4. de corde. Solutum fuit. 7. physi. com. 4 
+            <lb ed="#J" n="60"/>sed illi solutioni addo, quod licet motus
+            pro<lb ed="#J" n="61" break="no"/>gressiuus attribuatur homini essentialiter 
+            <lb ed="#J" n="62"/>per pedes, quia motus progressiuus habet 
+            <lb ed="#J" n="63"/>per pedes sieri, tamen radix istius motus 
+            <lb ed="#J" n="64"/>est a corde. 
+          </p>
+        </div>
+        <div xml:id="GHcsDA-d1e66-Dd1e1351">
+          <head xml:id="GHcsDA-d1e66-Hd1e1353">Contradictio 10</head>
+          <p xml:id="GHcsDA-d1e66-d1e1356">
+            <lb ed="#J" n="65"/>Decima contradictio est in commen. A. 
+            <lb ed="#J" n="66"/>Motus est transmuratio rei in sua
+            substan<lb ed="#J" n="67" break="no"/>tia. Oppositum. i. phy. 33. &amp;. 3. phy. tex. com. 7 
+            <lb ed="#J" n="68"/>Soluitur. argumentum est ad hominem, 
+            <lb ed="#J" n="69"/>nam Antiqui posuerunt animam esse
+            mo<lb ed="#J" n="70" break="no"/>tum: ergo non nisi substantialem, quia
+            ani<lb ed="#J" n="71" break="no"/>ma est substantia. &amp; ideo contra illos ibi ar 
+            <lb ed="#J" n="72"/>guitu:, &amp; dictum Auer. ex ipsorum ore
+            se<lb ed="#J" n="73" break="no"/>qui, &amp; prodire videtur. 
+          </p>
+        </div>
+        <div xml:id="GHcsDA-d1e66-Dd1e1379">
+          <head xml:id="GHcsDA-d1e66-Hd1e1381">Contradictio 11</head>
+          <p xml:id="GHcsDA-d1e66-d1e1384">
+            <lb ed="#J" n="74"/>Vndecima contradi. est in tex. 49. Arist. 
+            <lb ed="#J" n="75"/>&amp; Commen. videntur dicere quietem esse 
+            <lb ed="#J" n="76"/>magis propriam animae, quam motum. &amp;  
+            <lb ed="#J" n="77"/>Alexan. in paraphrasi cap. 6. vbi probat
+            ani<lb ed="#J" n="78" break="no"/>niam secundum se mobilem esse, expresse dicit quod  
+            <lb ed="#J" n="79"/>magis proprium magisque secundum animae
+            natu<lb ed="#J" n="80" break="no"/>ram esse videtur frui potius quiete, quam 
+            <lb ed="#J" n="81"/>motu. Sed huius oppositum habetur a The 
+            <lb ed="#J" n="82"/>mistio in principio libri de anima cap. 1.
+            in<lb ed="#J" n="83" break="no"/>quit animam esse sontem &amp; initium
+            om<lb ed="#J" n="84" break="no"/>nium motuum. Item oppositum huius
+            in<lb ed="#J" n="85" break="no"/>uenimus ab Auer. in lib. destructio
+            destru<lb ed="#J" n="86" break="no"/>ctionum. disputa. 19. in solutione primi
+            du<lb ed="#J" n="87" break="no"/>bil. vbi inquit quod intentio coeli apud
+            homi<lb ed="#J" n="88" break="no"/>nes est ipsenset motus, in eo quod est motus. 
+            <lb ed="#J" n="89"/>nam perfectio animati, in eo quod est
+            anima<lb ed="#J" n="90" break="no"/>tum, est motus. quod non esset verum, si 
+            <lb ed="#J" n="91"/>anima, per quam vnum viuit. esset magis 
+            <lb ed="#J" n="92"/>causa quietis, quam motus. Amplius motus 
+            <lb ed="#J" n="93"/>est tanquam vita omnibus natura
+            constan<lb ed="#J" n="94" break="no"/>tibus. &amp; ipse Commen. exponit hoc de motu 
+            <lb ed="#J" n="95"/>coeli. sed ille, cum sit circularis. est animae. 
+            <lb ed="#J" n="96"/>Nisi esset, quod motus animae alii sunt veri,
+            alii<lb ed="#J" n="97" break="no"/>existimati, vt dicit Comnienta. 2. de anima 
+            <lb ed="#J" n="98"/>com. 37. motus veri sunt localis,
+            alteratio<lb ed="#J" n="99" break="no"/>nis, &amp; augmenti. motus existimati sunt sen 
+            <lb ed="#J" n="100"/>fatio, &amp; intellectio, &amp; isti dicuntur. 7. physi. 
+            <lb ed="#J" n="101"/>motus aequiuoce. Arist. igitur &amp; Alexan. au 
+            <lb ed="#J" n="102"/>thoritates habent sic intelligi, quod animae mo 
+            <lb ed="#J" n="103"/>tus existimati magis perfecte fiunt nobis 
+            <lb ed="#J" n="104"/>quiescentibus. quam motis, vnde iudicium 
+            <lb ed="#J" n="105"/>ensus &amp; intellectus impediuntur ex
+            reali<lb ed="#J" n="106" break="no"/>motu &amp; alteratione corporis, vt patet. in 
+            <lb ed="#J" n="107"/>ebrijs, infirmis, &amp; id genus. Non igitur est 
+            <lb ed="#J" n="108"/>sensus quod natura animae potius est mitium 
+            <lb ed="#J" n="109"/>quietis &amp; motus priuatio in corporibus
+            ani<lb ed="#J" n="110" break="no"/>matis, quam motus sed eo modo, quo
+            dixi<lb ed="#J" n="111" break="no"/>mus. Arguitur enim contra Antiquos hic, 
+            <lb ed="#J" n="112"/>qui animae essentiam definiebant per mo¬ 
+            <!--Averroes_DeAnima_JuntSecunda_11-0427.xml-->
+            <pb ed="#J" n="207-v"/>
+            <cb ed="#J" n="a"/>
+            <lb ed="#J" n="1"/>tum, ita quod sit eius quiditas in motu con 
+            <lb ed="#J" n="2"/>stituta. 
+          </p>
+        </div>
+        <div xml:id="GHcsDA-d1e66-Dd1e1483">
+          <head xml:id="GHcsDA-d1e66-Hd1e1485">Contradictio 12</head>
+          <p xml:id="GHcsDA-d1e66-d1e1488">
+            <lb ed="#J" n="3"/>Duodecima contradi. est super eod. tex. 
+            <lb ed="#J" n="4"/>Atisto. scribit quod intelligentia
+            assimila<lb ed="#J" n="5" break="no"/>tur potius statui, quam motui: vbi
+            Themis<lb ed="#J" n="6" break="no"/>&amp; alii expositores colligunt motum esse 
+            <lb ed="#J" n="7"/>magis alienum a natura animae quam sta, 
+            <lb ed="#J" n="8"/>tum. Sed huius oppositum habetur a
+            The<lb ed="#J" n="9" break="no"/>mistio primo de anima, vbi dicit animam 
+            <lb ed="#J" n="10"/>esse originem &amp; fontem omnium motuum 
+            <lb ed="#J" n="11"/>Soluitur. Aristo. Arguit contra Antiqu os, 
+            <lb ed="#J" n="12"/>qui ponebant motum esse de essentia
+            ani<lb ed="#J" n="13" break="no"/>mae, ita quod constituitur per motum. si 
+            <lb ed="#J" n="14"/>cut venti &amp; fiuuil, quorum essentia consistit 
+            <lb ed="#J" n="15"/>in motu. &amp; Aristo. improbat, quia motus 
+            <lb ed="#J" n="16"/>impedit propriam animae actionem, &amp; quies 
+            <lb ed="#J" n="17"/>magis perficit. vnde intellectio, quae est prae 
+            <lb ed="#J" n="18"/>cipua animae operatio, magis perficitur in 
+            <lb ed="#J" n="19"/>quiete, quam ia motu. vnde sobril, &amp; senes 
+            <lb ed="#J" n="20"/>&amp; corpore quieto, &amp; in silentio, motus
+            me<lb ed="#J" n="21" break="no"/>lius intelligimus, quam ebrii, iuuenes, &amp;  
+            <lb ed="#J" n="22"/>qui lacessito sunt corpore, &amp; qui interdiu 
+            <lb ed="#J" n="23"/>intelligunt. cum hoc tamenstat, vt anima 
+            <lb ed="#J" n="24"/>fit fons omnis motus, praesertim quia
+            mo<lb ed="#J" n="25" break="no"/>tus animae est circularis, qui est sons &amp;
+            ori<lb ed="#J" n="26" break="no"/>go omnium aliorum motuum, vt patet
+            ex<lb ed="#J" n="27" break="no"/>octauo physico. Vnde anima vt inquit Com. 
+            <lb ed="#J" n="28"/>men. est principium omnium motuum 
+            <lb ed="#J" n="29"/>tam verorum, quam existimatorum. tamen 
+            <lb ed="#J" n="30"/>animae actiones, praesertim intellectus
+            ma<lb ed="#J" n="31" break="no"/>gis impediuntur a motu corporeo, quam a 
+            <lb ed="#J" n="32"/>quiete. vnde confectum est vt sedentes
+            iu<lb ed="#J" n="33" break="no"/>dicent. 
+          </p>
+        </div>
+        <div xml:id="GHcsDA-d1e66-Dd1e1559">
+          <head xml:id="GHcsDA-d1e66-Hd1e1561">Contradictio 13</head>
+          <p xml:id="GHcsDA-d1e66-d1e1564">
+            <lb ed="#J" n="34"/>Decimatertia contradi. est in commen. Si 
+            <lb ed="#J" n="35"/>dicit Commen. quod causa, propter quam 
+            <lb ed="#J" n="36"/>coelum moueri melius sit quam vt quie 
+            <lb ed="#J" n="37"/>scat, &amp; quod circulo moueatur melius sit quam 
+            <lb ed="#J" n="38"/>motu recto, primae philosophiae est. Sed
+            op<lb ed="#J" n="39" break="no"/>positum secundi patet. I. coeli tex. commen. i3. 
+            <lb ed="#J" n="40"/>Soluitur. quid inconuenit idem ingredi
+            di<lb ed="#J" n="41" break="no"/>uersas scientias speculatiuas, secundum diuersas 
+            <lb ed="#J" n="42"/>consyderationes: certe nihil. patet. 2. physi. 
+            <lb ed="#J" n="43"/>com. 7I. Dico quod principia sensibilium a Diui 
+            <lb ed="#J" n="44"/>no consyderantur, &amp; causae, sed altiori mo 
+            <lb ed="#J" n="45"/>do quam sit modus naturalis. vnde quare 
+            <lb ed="#J" n="46"/>aliquid melioris rationem habeat, hoc
+            po<lb ed="#J" n="47" break="no"/>test consyderari ab artifice consyderante 
+            <lb ed="#J" n="48"/>finem, &amp; praecipue primum finem, qui est 
+            <lb ed="#J" n="49"/>ratio bonitatis in omnibus, talis autem a 
+            <lb ed="#J" n="50"/>Oiuino consyderatur. Naturalis autem 
+            <lb ed="#J" n="51"/>assignat istorum rationes sensibiles, &amp;
+            exi<lb ed="#J" n="52" break="no"/>stentes in motu. Vide ergo bene &amp;
+            consy<lb ed="#J" n="53" break="no"/>dera dicta Commentato. 12. metaphysi.
+            com<lb ed="#J" n="54" break="no"/>men. I. 3. 6. &amp;. 29. vide commento. 3. &amp;. S 
+            <lb ed="#J" n="55"/>eptimi meta. &amp; commen.3. tertil metaphy 
+            <lb ed="#J" n="56"/>sico. &amp; sic intelliges quod diximus tibi. suf¬ 
+            <!--Averroes_DeAnima_JuntSecunda_11-0427.xml-->
+            <cb ed="#J" n="b"/>
+            <lb ed="#J" n="57"/>ficit nobis loca tibi ostendere. non oportet 
+            <lb ed="#J" n="58"/>omnia scribere. breuitati indulgere
+            volu<lb ed="#J" n="59" break="no"/>mus. 
+          </p>
+        </div>
+        <div xml:id="GHcsDA-d1e66-Dd1e1628">
+          <head xml:id="GHcsDA-d1e66-Hd1e1630">Contradictio 14</head>
+          <p xml:id="GHcsDA-d1e66-d1e1633">
+            <lb ed="#J" n="60"/>Decimaquarta contradi. est in commen. 
+            <lb ed="#J" n="61"/>d 4. Motus sensationis finis eius est inanima, 
+            <lb ed="#J" n="62"/>&amp; principium eius est ab extra. Oppositum 
+            <lb ed="#J" n="63"/>atet cormmen. 3. huius primi de anima. 
+            <lb ed="#J" n="64"/>Soluitur. hic comparat sensationes animae 
+            <lb ed="#J" n="65"/>eiusdem raionis. nam sensationes
+            interio<lb ed="#J" n="66" break="no"/>res quaedam rectae fiunt, &amp; quaedam
+            reffe<lb ed="#J" n="67" break="no"/>xae. vnde prima incipit ab obiecto, &amp;
+            termi<lb ed="#J" n="68" break="no"/>natur vltimate in vltima virtute sensiti¬. 
+            <lb ed="#J" n="69"/>ua, quae est memoria, deueniendo per
+            sen<lb ed="#J" n="70" break="no"/>sus exerinsecos &amp; intrinsecos, tanquam per  
+            <lb ed="#J" n="71"/>media, sed sunt quaedam, quae refsexo gradu 
+            <lb ed="#J" n="72"/>ac retrogradu procedunt. &amp; istae incipiunt 
+            <lb ed="#J" n="73"/>ab anima, &amp; terminantur ad extra, in
+            tan<lb ed="#J" n="74" break="no"/>tum quod, vt dicit Commentator in tertio 
+            <lb ed="#J" n="75"/>colliget, cap. 36. ex hoc potest reddi ratio 
+            <lb ed="#J" n="76"/>visionum, quae contingunt melancholicis, 
+            <lb ed="#J" n="77"/>&amp; mulieribus dicentibus se videre
+            mor<lb ed="#J" n="78" break="no"/>tuos, aut daemones, aut aliquid huiusmodi. 
+            <lb ed="#J" n="79"/>Sed hoc dixit ipse, quia non credidit Deo, 
+            <lb ed="#J" n="80"/>nec veritati. sit maledictus. quia etiam
+            ve<lb ed="#J" n="81" break="no"/>rae visiones angelorum fuerunt non tantum 
+            <lb ed="#J" n="82"/>imaginariae: licet hoc quandoque possit es 
+            <lb ed="#J" n="83"/>se ex sola imaginatione, &amp; defluxu
+            idoli<lb ed="#J" n="84" break="no"/>formati vsque ad exteriorem sensum, sic 
+            <lb ed="#J" n="85"/>ligitur intelligitur dictum eius hic. Sed in 
+            <lb ed="#J" n="86"/>commento tertio primi huius comparauit 
+            <lb ed="#J" n="87"/>sensationes diuersarum rationum,
+            qua<lb ed="#J" n="88" break="no"/>um quaedam magis tenent se ex parte
+            cor<lb ed="#J" n="89" break="no"/>poris, sicat somnus &amp; sensatio, quae in som 
+            <lb ed="#J" n="90"/>no fit. ista enim accidentia ligant animam. 
+            <lb ed="#J" n="91"/>&amp; ideo terminantur ad ipsam: quia a re 
+            <lb ed="#J" n="92"/>corporali effumante causatur somnus, &amp;  
+            <lb ed="#J" n="93"/>ligamentum fit in sensu communi.
+            simili<lb ed="#J" n="94" break="no"/>ter motus ille est a circunferentia ad
+            cen<lb ed="#J" n="95" break="no"/>trum. vigilia autem est accidens formalius. 
+            <lb ed="#J" n="96"/>&amp; ideo tenet se magis ex parte animae: quia 
+            <lb ed="#J" n="97"/>est solutio ligamentorum, &amp; est ratio,
+            pro<lb ed="#J" n="98" break="no"/>pter quam anima operatur, &amp; in ea fit mo 
+            <lb ed="#J" n="99"/>tus de centro ad circunferentiam. Et ideo 
+            <lb ed="#J" n="100"/>dicit Commenta. quod sensus, &amp;
+            imagina<lb ed="#J" n="101" break="no"/>tio, quae in vigilia fiunt, incipit ab anima, et 
+            <lb ed="#J" n="102"/>redundat in corpus. 
+          </p>
+        </div>
+        <div xml:id="GHcsDA-d1e66-Dd1e1730">
+          <head xml:id="GHcsDA-d1e66-Hd1e1732">Contradictio 15</head>
+          <p xml:id="GHcsDA-d1e66-d1e1735">
+            <lb ed="#J" n="103"/>Decimaquinta contradi. est in
+            commen<lb ed="#J" n="104" break="no"/>69. Scribit ibi Commenta. quod si in
+            ali<lb ed="#J" n="105" break="no"/>quomodo corpore sola quantitas remaneat,
+            pos<lb ed="#J" n="106" break="no"/>uibile est ibi imaginari mouens &amp; motum. 
+            <lb ed="#J" n="107"/>Huius oppositum sequitur ex dictis suis. 
+            <lb ed="#J" n="108"/>quarti physicorum commen. 7i. ibi enim 
+            <lb ed="#J" n="109"/>licit quod elementa posita in vacuo non  
+            <lb ed="#J" n="110"/>possent moueri: &amp; tamen in casu ibi esset 
+            <lb ed="#J" n="111"/>quantitas. Soluitur. dico quod dictum suum 
+            <lb ed="#J" n="112"/>hic sequitur ad hominem. nam illi, contra 
+            <!--Averroes_DeAnima_JuntSecunda_11-0428.xml-->
+            <pb ed="#J" n="208-r"/>
+            <cb ed="#J" n="a"/>
+            <lb ed="#J" n="1"/>quomodos arguit, dicebant, quod puncta illa erant 
+            <lb ed="#J" n="2"/>corpora, &amp; cum non sint esementa, sequit 
+            <lb ed="#J" n="3"/>quod essent ex elementis causata. talia autem 
+            <lb ed="#J" n="4"/>bene possunt imaginari posse remoueri,
+            so<lb ed="#J" n="5" break="no"/>la quantitate remanente, cum habeant
+            in<lb ed="#J" n="6" break="no"/>trinsecam resistentiam. Motus etiam imagi 
+            <lb ed="#J" n="7"/>narius est res amipla satis. dicunt enim
+            Ma<lb ed="#J" n="8" break="no"/>thematici punctum ex sui fluxu causat
+            li<lb ed="#J" n="9" break="no"/>neam, &amp; fiuxus lineae causat superficiem: &amp;  
+            <lb ed="#J" n="10"/>superficies fiuens causat corpus. omnia autem 
+            <lb ed="#J" n="11"/>ista ad imaginationem vera sunt, non autem 
+            <lb ed="#J" n="12"/>fecundum rem ipsam. 
+          </p>
+        </div>
+        <div xml:id="GHcsDA-d1e66-Dd1e1794">
+          <head xml:id="GHcsDA-d1e66-Hd1e1796">Contradictio 16</head>
+          <p xml:id="GHcsDA-d1e66-d1e1799">
+            <lb ed="#J" n="13"/>Decimasexta contradi. est in com. 76. 
+            <lb ed="#J" n="14"/>Dicitur quod impossibile est vt substantia sit 
+            <lb ed="#J" n="15"/>elementorum aliorum oppositum. 12.
+            me<lb ed="#J" n="16" break="no"/>taphy. 12. Eulcitur etiam hoc idem. 4. meta 
+            <lb ed="#J" n="17"/>phy. com. 2. vbi dicitur substantiam esse
+            cau<lb ed="#J" n="18" break="no"/>sam omnium non secundum agens &amp; finem, sed 
+            <lb ed="#J" n="19"/>secundum subiectum. Soluitur. principia duplicia, 
+            <lb ed="#J" n="20"/>propinqua, &amp; remota. principia remota 
+            <lb ed="#J" n="21"/>possunt esse eadem respectu omnium
+            prae<lb ed="#J" n="22" break="no"/>dicamentorum. sed principia propinqua 
+            <lb ed="#J" n="23"/>minime. glosa est Auer. com. 22. iam
+            allega<lb ed="#J" n="24" break="no"/>to in 12. meta. hic autem locuitur Com. de 
+            <lb ed="#J" n="25"/>prncipiis propinquis, quando dixit quod
+            sub<lb ed="#J" n="26" break="no"/>stantia non est elementum aliorum. &amp; red 
+            <lb ed="#J" n="27"/>dens causam subdit, dicens, principia enim non  
+            <lb ed="#J" n="28"/>substantiae sunt non substantiae 
+          </p>
+        </div>
+        <div xml:id="GHcsDA-d1e66-Dd1e1837">
+          <head xml:id="GHcsDA-d1e66-Hd1e1839">Contradictio 17</head>
+          <p xml:id="GHcsDA-d1e66-d1e1842">
+            <lb ed="#J" n="29"/>Decimaseptima contradi. est super tex 
+            <lb ed="#J" n="30"/>79. Dicit Aristo, hic, quod ossa non sentiunt 
+            <lb ed="#J" n="31"/>Sed huic aduersatur Oale. in. 2. de crisi, vbi 
+            <lb ed="#J" n="32"/>ponit differentiam inter rigorem tertianae, 
+            <lb ed="#J" n="33"/>&amp; quartanae, vbi dicit quod in rigore quarta nae 
+            <lb ed="#J" n="34"/>fit laesio vsque ad ossa, ita quod quidam
+            con<lb ed="#J" n="35" break="no"/>quaesti sunt se dolere in ossibus. Hoc etiam 
+            <lb ed="#J" n="36"/>contradicit sensui in laborantibus morbo 
+            <lb ed="#J" n="37"/>gallico, qui plurimum conqueruntur se do 
+            <lb ed="#J" n="38"/>lere in ossibas. Nisi esset quod sensus
+            commu<lb ed="#J" n="39" break="no"/>nicatur ossibus mediante panniculo inuol 
+            <lb ed="#J" n="40"/>uente illa, sed secundum sui substantiam sensu ca 
+            <lb ed="#J" n="41"/>rent. sicut est de substantia cerebri, pulmo 
+            <lb ed="#J" n="42"/>nis, &amp; heparis, quibus sensus illo modo
+            com<lb ed="#J" n="43" break="no"/>municauit secundum peritos Medicos.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
